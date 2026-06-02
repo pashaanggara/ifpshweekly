@@ -1,85 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Mahasiswa</title>
-</head>
-<body>
-    <h1>INFORMATIKA 2026</h1>
-    <table border="1" cellspacing="0" cellpadding="10"px>
-        <tr>
-            <td><a href="index.php">Home</a></td>
-            <td><a href="profile.php">Profile</a></td>
-            <td><a href="contact.php">Contact</a></td>
-            <td><a href="mahasiswa.php">Data Mahasiswa</a></td>
-        </tr>
-    </table>
-    <br>
-    <hr>
-    <h2>Data Mahasiswa</h2>
-    <table Border="1" cellpadding="10px">
-        <tr>
-            <th >No</th>
-            <th >Nama</th>
-            <th >Foto</th>
-            <th >NILAI</th>
-        </tr>
-        <tr>
-            <th> UTS</th>
-            <th> UAS</th>
-            <th> Tugas</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Kucing ABCD</td>
-            <td><img src="assets/img/kucing abcd.jpg" alt="foto" width="60px"></td>
-            <td >90</td>
-            <td >85</td>
-            <td >40</td>
-        </tr>
-         <tr>
-            <td>1</td>
-            <td>Patrick Plenger</td>
-            <td><img src="assets/img/patrick plenger.jpg" alt="foto" width="60px"></td>
-            <td >60</td>
-            <td >50</td>
-            <td >45</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Singa Gokil</td>
-            <td><img src="assets/img/singa gokil.jpg" alt="foto" width="60px"></td>
-            <td >90</td>
-            <td >80</td>
-            <td >70</td>
-    </table>
-
-    <h3>Table Mahasigma</h>
-    <table border="1" cellspacing="0" cellpadding="10px">
+<html>
+    <head>
+        <link rel="stylesheet" href="style1.css">
+        <meta charset="UTF-8">
+        <title>
+            DATA MAHASISWA INFORMATIKA 2026
+        </title>
+    </head>
+    <body>
+        <div class="container">
+        </a>
+        <h1>Data Mahasiswa Informatika 2026</h1>
+        <a href ="tambahdata.php">
+        <button>tambah data</button>
+        </a>
+        <table border="1" cellspacing="0" cellpadding="5">
             <tr>
-                <td>1,1</td>
-                <td>1,2</td>
-                <td>1,3</td>
-                <td>1,4</td>
-            </tr>
-            <tr>
-                <td>2,1</td>
-                <td align="center" colspan="2" rowspan="2" class="center-cell">?</td>
-                <td>2,4</td>
-
-            </tr>
-            <tr>
-                <td>3,1</td>
-                <td>3,4</td>
-            </tr>
-            <tr>
-                <td>4,1</td>
-                <td>4,2</td>
-                <td>4,3</td>
-                <td>4,4</td>
+                <td><a href="index1.php">Home</a></td>
+                <td><a href="profile.php">Profile</a></td>
+                <td><a href="contact.php">Contact</a></td>
+                <td><a href="mahasiswa.php">Data Mahasiswa</a></td>
             </tr>
         </table>
-    
-</body>
+        <hr/>
+        <table border="1" cellpadding="10px" >
+            <tr>
+                <th >NO</th>
+                <th >NAMA</th>
+                <th >jurusan</th>
+                <th >NIM</th>
+                <th >NO HP</th>
+                <th >Email</th>
+                <th >foto</th>
+                <th >aksi</th>
+            </tr>
+            <tr>
+                <td align="center">1</td>
+                <td>annas</td>
+                <td >13182420071</td>
+                <td >informatika</td>
+                <td >annasamri@gmail.com</td>
+                <td>08kapankapan</td>
+                <td><img src="aset/img/annas.jpeg" alt="foto" width="60px"></td>
+                <td>
+                    <a href="editedata.php"><button>edit</butten></a> | <a href="deletdata.php"><butten>hapus</butten></a>
+                </td>
+            </tr>
+            
+        </table>
+        <!-- Internal source -->
+        <a href="profile.php">Profile</a>
+        <a href="contact.php">Contact</a>
+
+        <!-- External source -->
+         <a href="https://Youtube.com" target="_blank">Youtube</a>
+        <br>
+        <hr>
+</div></body>
 </html>
