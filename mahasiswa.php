@@ -20,10 +20,10 @@
     <h2>Data Mahasiswa</h2>
     <table Border="1" cellpadding="10px">
         <tr>
-            <th rowspan="2">No</th>
-            <th rowspan="2">Nama</th>
-            <th rowspan="2">Foto</th>
-            <th colspan="3">NILAI</th>
+            <th >No</th>
+            <th >Nama</th>
+            <th >Foto</th>
+            <th >NILAI</th>
         </tr>
         <tr>
             <th> UTS</th>
@@ -34,25 +34,25 @@
             <td>1</td>
             <td>Kucing ABCD</td>
             <td><img src="assets/img/kucing abcd.jpg" alt="foto" width="60px"></td>
-            <td align="center">90</td>
-            <td align="center">85</td>
-            <td align="center">40</td>
+            <td >90</td>
+            <td >85</td>
+            <td >40</td>
         </tr>
          <tr>
             <td>1</td>
             <td>Patrick Plenger</td>
             <td><img src="assets/img/patrick plenger.jpg" alt="foto" width="60px"></td>
-            <td align="center">60</td>
-            <td align="center">50</td>
-            <td align="center">45</td>
+            <td >60</td>
+            <td >50</td>
+            <td >45</td>
         </tr>
         <tr>
             <td>1</td>
             <td>Singa Gokil</td>
             <td><img src="assets/img/singa gokil.jpg" alt="foto" width="60px"></td>
-            <td align="center">90</td>
-            <td align="center">80</td>
-            <td align="center">70</td>
+            <td >90</td>
+            <td >80</td>
+            <td >70</td>
     </table>
 
     <h3>Table Mahasigma</h>
